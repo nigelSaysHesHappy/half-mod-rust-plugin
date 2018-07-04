@@ -1,0 +1,15 @@
+[package]
+name = "half-mod-rust-plugin-demo"
+version = "0.1.0"
+authors = ["akr <akr+git@akars.io>"]
+build = "build.rs"
+publish = false
+
+[lib]
+crate-type = ["dylib"]
+
+[dependencies]
+cpp = "0.3"
+
+[build-dependencies]
+cpp_build = "0.3"
