@@ -2,7 +2,7 @@ extern crate cpp_build;
 
 fn main() {
     cpp_build::Config::new()
-        .compiler("clang++")
+        .compiler("/usr/bin/clang++-3.8")
         .cpp_set_stdlib(Some("c++"))
         .flag("--std=c++11")
         .include("include")

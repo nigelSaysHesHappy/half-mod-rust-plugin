@@ -11,8 +11,8 @@ cpp! {{
                 "Rust Plugin Demo",
                 "akr",
                 "Calling HalfMod from Rust code!",
-                "v0.1.0",
-                "https://example.com"
+                "v0.1.1",
+                "https://github.com/akars/half-mod-rust-plugin"
             );
 
             return 0;
